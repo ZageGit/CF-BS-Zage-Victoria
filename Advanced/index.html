@@ -3,16 +3,29 @@
 <head>
 	<meta charset="UTF-8" />
     <title>Bootstrap</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-    <!--  CDN
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    -->
+   
 </head>
 <body>
-    <h1>Header 1</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non molestiae repellendus quaerat aperiam praesentium deleniti optio doloremque saepe velit provident, est totam porro quasi commodi qui officiis hic consequatur pariatur.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi, odit, quia earum unde iste quibusdam alias, rem illo culpa enim ducimus voluptate? Atque labore omnis delectus error dignissimos sapiente?</p>
+    <div class="container">
+        <div class="row d-flex justify-content-between alert alert-danger">
+            <p class="col-2 alert alert-light">Box1</p>
+            <p class="col-2 alert alert-light">Box2</p>
+        </div>
 
+        <div class="row d-flex justify-content-between alert alert-warning">
+            <p class="col-3 alert alert-light">Box1</p>
+            <p class="col-3 alert alert-light">Box2</p>
+            <p class="col-3 alert alert-light">Box2</p>
+        </div>
+
+        <div class="row d-flex alert alert-dark">
+            <p class="col-3 alert alert-light bd-highlight">Box1</p>
+            <p class="col-5 alert alert-light bd-highlight">Box2</p>
+            <p class="ml-auto col-3 alert alert-light bd-highlight">Box2</p>
+        </div>
+            
+     </div>
 	
 </body>
 </html>
